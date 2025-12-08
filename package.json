@@ -1,0 +1,31 @@
+{
+  "name": "code-gremlin",
+  "displayName": "Code Gremlin",
+  "description": "A chaotic little gremlin that roasts you every time you save your file.",
+  "version": "1.0.0",
+  "publisher": "Ruthi Shankari S",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "code-gremlin.enable",
+        "title": "Enable Code Gremlin"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npx vsce package"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0"
+  }
+}
