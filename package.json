@@ -1,11 +1,16 @@
 {
   "name": "code-gremlin",
   "displayName": "Code Gremlin",
-  "description": "A chaotic little gremlin that roasts you every time you save your file.",
+  "description": "A chaotic little gremlin that roasts you every time your saved code is faulty.",
   "version": "1.0.0",
-  "publisher": "Ruthi Shankari S",
+  "publisher": "Ex-Rockstar",
+  "icon": "alienqueen.png",
   "engines": {
     "vscode": "^1.75.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ex-Rockstar/code-gremlin.git"
   },
   "categories": [
     "Other"
@@ -23,7 +28,7 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "npx vsce package"
+    
   },
   "devDependencies": {
     "vsce": "^2.15.0"
